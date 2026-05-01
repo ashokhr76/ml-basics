@@ -99,7 +99,6 @@ Use a cost function whenever you need to evaluate and optimize a model’s perfo
 - It quantifies the error between predicted and actual values.
 - It guides the learning process by helping the algorithm adjust model parameters to minimize error.
 - Lower cost means better model performance.
-
 ---
 
 - **Formula for Slope (m) in Simple Linear Regression:**
