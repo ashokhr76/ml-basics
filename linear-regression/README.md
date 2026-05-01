@@ -25,3 +25,91 @@ model.fit(X, y)
 predicted_price = model.predict([[1800]])
 print(predicted_price)
 ```
+
+## Key Formulas in Linear Regression
+
+- **Equation of the regression line (Simple Linear Regression):**
+
+  y = m x + b
+
+  Where:
+  - y = predicted value
+  - x = input feature
+  - m = slope (coefficient)
+  - b = intercept
+
+- **Equation for Multiple Linear Regression:**
+
+  y = w₀ + w₁x₁ + w₂x₂ + ... + wₙxₙ
+
+  Where:
+  - y = predicted value
+  - x₁, x₂, ..., xₙ = input features
+  - w₀ = intercept
+  - w₁, w₂, ..., wₙ = coefficients
+
+- **Cost Function (Mean Squared Error):**
+
+  J = (1/n) Σ (yᵢ – ŷᵢ)²
+
+  Where:
+  - yᵢ = actual value
+  - ŷᵢ = predicted value
+  - n = number of samples
+
+  I will add a markdown section to your README.md explaining what a cost function is, when to use it, and why it is important in linear regression.
+
+Here’s what I’ll add:
+
+---
+## What is a Cost Function?
+
+A **cost function** (also called a loss function) measures how well a machine learning model’s predictions match the actual data. In linear regression, the most common cost function is **Mean Squared Error (MSE)**, which calculates the average squared difference between actual and predicted values.
+
+**When to use:**  
+Use a cost function whenever you need to evaluate and optimize a model’s performance, especially during training.
+
+**Why to use:**  
+- It quantifies the error between predicted and actual values.
+- It guides the learning process by helping the algorithm adjust model parameters to minimize error.
+- Lower cost means better model performance.
+
+---
+
+I will insert this after the "Key Formulas in Linear Regression" section. 
+````
+
+````
+
+
+Made changes.
+
+Here is a section you can add to your README.md:
+
+---
+
+## What is a Cost Function?
+
+A **cost function** (also called a loss function) measures how well a machine learning model’s predictions match the actual data. In linear regression, the most common cost function is **Mean Squared Error (MSE)**, which calculates the average squared difference between actual and predicted values.
+
+**When to use:**  
+Use a cost function whenever you need to evaluate and optimize a model’s performance, especially during training.
+
+**Why to use:**  
+- It quantifies the error between predicted and actual values.
+- It guides the learning process by helping the algorithm adjust model parameters to minimize error.
+- Lower cost means better model performance.
+
+---
+
+You can copy and paste this into your README.md after the "Key Formulas in Linear Regression" section. Let me know if you want to try adding it automatically again!
+
+- **Formula for Slope (m) in Simple Linear Regression:**
+
+  m = Σ(xᵢ – x̄)(yᵢ – ȳ) / Σ(xᵢ – x̄)²
+
+- **Formula for Intercept (b):**
+
+  b = ȳ – m x̄
+
+Where x̄ and ȳ are the means of x and y, respectively.
