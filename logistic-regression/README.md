@@ -35,6 +35,27 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 - Multiclass: Classifying the species of an iris flower (setosa, versicolor, virginica).
 - Multilabel: Assigning multiple genres to a movie (action, comedy, drama).
 
+
+---
+
+## What is the Sigmoid Function?
+
+The **Sigmoid function** (also called the logistic function) is a mathematical function that maps any real-valued number into a value between 0 and 1. In logistic regression, it is used to convert the output of a linear equation (z) into a probability.
+
+**Formula:**
+
+p = 1 / (1 + exp(-z))
+
+Where:
+- p = predicted probability (between 0 and 1)
+- z = linear combination of inputs and weights (z = w₀ + w₁x₁ + ... + wₙxₙ)
+
+**Why is it important?**
+- It allows logistic regression to output probabilities.
+- It enables classification by applying a threshold (e.g., 0.5) to decide the class.
+
+---
+
 ---
 
 ## Key Formulas
