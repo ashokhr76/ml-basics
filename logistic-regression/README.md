@@ -42,6 +42,12 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 
 The **Sigmoid function** (also called the logistic function) is a mathematical function that maps any real-valued number into a value between 0 and 1. In logistic regression, it is used to convert the output of a linear equation (z) into a probability.
 
+## Visualizing the Sigmoid Function
+
+![Sigmoid Function Graph](https://upload.wikimedia.org/wikipedia/commons/8/88/Logistic-curve.svg)
+
+*The sigmoid function maps any real value to a value between 0 and 1, which is interpreted as probability in logistic regression.*
+
 **Formula:**
 
 p = 1 / (1 + exp(-z))
