@@ -7,7 +7,7 @@
 - When the relationship between variables is approximately linear.
 
 **Simple Example:**
-Suppose you want to predict house prices based on the size (in square feet):
+Suppose you want to predict house prices based on the size (in square feet): Predicted value is continuos
 
 ```python
 from sklearn.linear_model import LinearRegression
