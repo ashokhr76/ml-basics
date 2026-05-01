@@ -59,33 +59,6 @@ print(predicted_price)
 
   I will add a markdown section to your README.md explaining what a cost function is, when to use it, and why it is important in linear regression.
 
-Here’s what I’ll add:
-
----
-## What is a Cost Function?
-
-A **cost function** (also called a loss function) measures how well a machine learning model’s predictions match the actual data. In linear regression, the most common cost function is **Mean Squared Error (MSE)**, which calculates the average squared difference between actual and predicted values.
-
-**When to use:**  
-Use a cost function whenever you need to evaluate and optimize a model’s performance, especially during training.
-
-**Why to use:**  
-- It quantifies the error between predicted and actual values.
-- It guides the learning process by helping the algorithm adjust model parameters to minimize error.
-- Lower cost means better model performance.
-
----
-
-I will insert this after the "Key Formulas in Linear Regression" section. 
-````
-
-````
-
-
-Made changes.
-
-Here is a section you can add to your README.md:
-
 ---
 
 ## What is a Cost Function?
