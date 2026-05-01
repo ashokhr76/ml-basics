@@ -9,6 +9,34 @@ Logistic Regression is a supervised machine learning algorithm used for classifi
 - Multiclass classification (with extensions like softmax regression)
 - Predicting the probability of an event occurring
 
+---
+
+## Types of Classification Problems and Logistic Regression
+
+- **Binary Classification:**  
+  Predicts one of two possible classes.  
+  *Example:* Email spam detection (spam or not spam), disease prediction (disease or no disease).
+
+- **Multiclass Classification:**  
+  Predicts one of three or more possible classes.  
+  *Example:* Handwritten digit recognition (digits 0–9), classifying types of flowers.
+
+- **Multilabel Classification:**  
+  Predicts multiple classes for each instance (less common for logistic regression, but possible with adaptations).  
+  *Example:* Tagging a news article with multiple topics.
+
+**How Logistic Regression Solves These:**
+- For binary classification, logistic regression uses the sigmoid function to output a probability between 0 and 1, and applies a threshold (usually 0.5) to decide the class.
+- For multiclass classification, logistic regression can be extended using the “one-vs-rest” (OvR) or “softmax” (multinomial) approach.
+- For multilabel, multiple binary logistic regression models can be trained, one for each label.
+
+**Examples:**
+- Binary: Predicting if a customer will buy a product (yes/no).
+- Multiclass: Classifying the species of an iris flower (setosa, versicolor, virginica).
+- Multilabel: Assigning multiple genres to a movie (action, comedy, drama).
+
+---
+
 ## Key Formulas
 - **Sigmoid (Logistic) Function:**
   
