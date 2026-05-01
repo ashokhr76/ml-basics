@@ -102,8 +102,6 @@ Use a cost function whenever you need to evaluate and optimize a model’s perfo
 
 ---
 
-You can copy and paste this into your README.md after the "Key Formulas in Linear Regression" section. Let me know if you want to try adding it automatically again!
-
 - **Formula for Slope (m) in Simple Linear Regression:**
 
   m = Σ(xᵢ – x̄)(yᵢ – ȳ) / Σ(xᵢ – x̄)²
