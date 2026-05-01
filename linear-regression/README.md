@@ -26,6 +26,19 @@ predicted_price = model.predict([[1800]])
 print(predicted_price)
 ```
 
+---
+
+## Visualizing Linear Regression and Slope
+
+![Simple Linear Regression Graph](https://upload.wikimedia.org/wikipedia/commons/3/3a/Linear_regression.svg)
+
+*In this graph, the blue line is the best fit line (regression line). The slope (m) is the change in y divided by the change in x between any two points on the line.*
+
+---
+
+---
+
+
 ## Key Formulas in Linear Regression
 
 - **Equation of the regression line (Simple Linear Regression):**
